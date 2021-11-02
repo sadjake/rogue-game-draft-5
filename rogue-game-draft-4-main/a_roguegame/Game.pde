@@ -56,8 +56,6 @@ void drawRoom() {
 void drawLightLayer () {
 }
 
-void drawMiniMap () {
-}
 
 void drawDarknessCell () {
   for (int i = 0; i < darkness.size(); i++) {
@@ -82,3 +80,20 @@ void drawDarknessCell () {
 
   void gameClicks() {
   }
+
+
+void drawMiniMap () {
+  int mapx = 0;
+  int mapy = 0;
+  stroke(BLACK,20);
+  int i = 0;
+  while (i < 100) {
+    if(map.get(mapx,mapy) == WHITE) {
+      
+      fill(BLACK,100);
+    } else if (map.get(mapx,mapy) == BLACK) {
+      
+      
+      
+      
+}
